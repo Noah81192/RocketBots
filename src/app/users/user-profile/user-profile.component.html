@@ -19,14 +19,20 @@
           <i class="fas fa-hammer"></i>
         </span>
         <span
+          *ngIf="savedUser.role === 'revewier'"
+          matTooltip="Revewier"
+          class="badge badge-danger cursor-pointer mx-1">
+          <i class="fas fa-hammer"></i>
+        </span>
+        <span
           *ngIf="savedUser.badges.includes('BETA_TESTER')"
           matTooltip="Beta Tester"
           class="badge badge-info cursor-pointer mx-1">
           <i class="fas fa-flask"></i>
         </span>
         <span
-          *ngIf="savedUser.badges.includes('OG')"
-          matTooltip="OG"
+          *ngIf="savedUser.badges.includes('PARTNER')"
+          matTooltip="PARTNER"
           class="badge badge-primary cursor-pointer mx-1">
           <i class="fas fa-meteor"></i>
         </span>
