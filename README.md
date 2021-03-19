@@ -7,7 +7,7 @@ Quickly and easily find Discord bots. Use this repository to customize the websi
 
 ![Website Preview](https://i.ibb.co/mJKfRLK/image.png)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Noah81192/RokutaList)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/noah81192/rokutaList)
 
 ## Setup
 https://help.codea.live/projects/dbots
